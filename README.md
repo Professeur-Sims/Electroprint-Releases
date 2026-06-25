@@ -17,5 +17,11 @@ While in vertical routing mode, pressing the 'N' key snaps the cursor to the nea
 - Track dimensions can be modified (currently the entire track at once).
 - You can obtain an estimate of a track's equivalent resistance.
 
+## Video tutorial and demo (start at 4:25):
+[![Video on Youtube](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=/1-gWeTOcZFc)
+https://youtu.be/1-gWeTOcZFc
+
+
 
 <img width="938" height="853" alt="Capture d&#39;écran 2026-06-25 131815" src="https://github.com/user-attachments/assets/7d021a39-6e53-4755-b274-91f9de8cea88" />
+<img width="2000" height="1498" alt="1782315349131" src="https://github.com/user-attachments/assets/4684d749-29ab-48f9-9aee-6ad04a2d3a67" />
