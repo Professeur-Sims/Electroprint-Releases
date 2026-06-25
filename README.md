@@ -18,9 +18,7 @@ While in vertical routing mode, pressing the 'N' key snaps the cursor to the nea
 - You can obtain an estimate of a track's equivalent resistance.
 
 ## Video tutorial and demo (start at 4:25):
-[![Video on Youtube](https://img.youtube.com/vi/VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=/1-gWeTOcZFc)
-https://youtu.be/1-gWeTOcZFc
-
+[![Video on Youtube](https://img.youtube.com/vi/1-gWeTOcZFc/0.jpg)](https://www.youtube.com/watch?v=/1-gWeTOcZFc)
 
 
 <img width="938" height="853" alt="Capture d&#39;écran 2026-06-25 131815" src="https://github.com/user-attachments/assets/7d021a39-6e53-4755-b274-91f9de8cea88" />
