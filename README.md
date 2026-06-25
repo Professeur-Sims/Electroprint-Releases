@@ -3,7 +3,7 @@ Electroprint is a software designed to merge 3D files with EDA (Kicad) netlists 
 
 ## Operation:
 (Perform in this order)
-- The "Import STEP" button allows you to import a .step file (no shit, Sherlock).
+- The "Import STEP/ STL" button allows you to import a .step/.stl file.
 - The "Import netlist" button allows you to select a KiCad netlist (preferably version 8.0 or 9.0; earlier versions have not been tested).
 - The "Orient face" button allows you to choose a face to orient towards the build plate.
 - "Select footprint folder" allows you to locate the KiCad footprints folder. This enables the software to associate the footprints found in the imported netlist. 
