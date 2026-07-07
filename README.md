@@ -1,6 +1,12 @@
 # Electroprint-Releases
 Electroprint is a software designed to merge 3D files with EDA (Kicad) netlists to 3D print objects with integrated electronics
 
+
+## Changelog (v1.1.5):
+-Both selection modes (component and route) are now fused together.
+-Selection of the footprint folder is now done through "Edit" "Footprint folder". The folders listed stay between session. No need to find the folder after every re-launch.
+-3MF export optimized for PrusaSlicer, featuring pre-configured settings for multiple perimeters and 90% infill for the conductors.
+
 ## Operation:
 (Perform in this order)
 - The "Import STEP/ STL" button allows you to import a .step/.stl file.
