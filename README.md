@@ -1,6 +1,15 @@
 # Electroprint-Releases
 Electroprint is a software designed to merge 3D files with EDA (Kicad) netlists to 3D print objects with integrated electronics
 
+The code will be open source before the end auf August 2026
+
+## Changelog (v1.2.0):
+- You can now export 3mf who can be opened as a project in Prusaslicer. The pause(s) (M601) are already included in the project to allow inclusion of your electronic components. (**3mf export can take up to 1 minute and can cause a temporary freeze of the app**)
+- 3mf exports now create forms who don't trigger an alert for non closed geometry in Prusaslicer.
+- 3mf exports include special instructions for high (default 8) number of perimeters for conductive elements. It avoid the risk of hollow conductive tracks who would be underperforming.
+- Language change is now available for English and French through 'Help'>'Language'. It will trigger a re-launch of the app so make sure you saved your project.
+- Improved ratsnest visibility
+- Color change for the conductive tracks. Now dark blue.
 
 ## Changelog (v1.1.5):
 - Both selection modes (component and route) are now fused together.
@@ -23,7 +32,9 @@ While in vertical routing mode, pressing the 'N' key snaps the cursor to the nea
 - Track dimensions can be modified (currently the entire track at once).
 - You can obtain an estimate of a track's equivalent resistance.
 
-<img width="962" height="623" alt="capture_demo" src="https://github.com/user-attachments/assets/c6fee983-1b9e-4b47-983d-e7705ea0b8ea" />
+<img width="938" height="560" alt="Interface_v1-2-0" src="https://github.com/user-attachments/assets/93705297-2f6b-4203-aaea-f0d20dd7b7a4" />
+<img width="955" height="524" alt="result_exp_proj_prusaslicer" src="https://github.com/user-attachments/assets/f316d2b1-5c3d-4b6d-872c-63a867428e3f" />
+
 
 
 ## Video tutorial and demo (start at 4:25):
@@ -31,5 +42,4 @@ While in vertical routing mode, pressing the 'N' key snaps the cursor to the nea
 [![Video on Youtube](https://img.youtube.com/vi/1-gWeTOcZFc/0.jpg)](https://www.youtube.com/watch?v=/1-gWeTOcZFc)
 
 
-<img width="938" height="853" alt="Capture d&#39;écran 2026-06-25 131815" src="https://github.com/user-attachments/assets/7d021a39-6e53-4755-b274-91f9de8cea88" />
 <img width="2000" height="1498" alt="1782315349131" src="https://github.com/user-attachments/assets/4684d749-29ab-48f9-9aee-6ad04a2d3a67" />
