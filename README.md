@@ -1,7 +1,12 @@
 # Electroprint-Releases
 Electroprint is a software designed to merge 3D files with EDA (Kicad) netlists to 3D print objects with integrated electronics
 
-The code will be open source before the end auf August 2026
+The code will be open source before the end of August 2026
+
+## Changelog (v1.3.0):
+- You can now change default track size in "Edit" -> "routing rules"
+- Ratsnest system has been reworked to be more like EDA softwares. Already connected ratsnest disappear.
+- "Help" window now provide a link to this github.
 
 ## Changelog (v1.2.0):
 - You can now export 3mf who can be opened as a project in Prusaslicer. The pause(s) (M601) are already included in the project to allow inclusion of your electronic components. (**3mf export can take up to 1 minute and can cause a temporary freeze of the app**)
