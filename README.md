@@ -3,6 +3,10 @@ Electroprint is a software designed to merge 3D files with EDA (Kicad) netlists 
 
 The code will be open source before the end of August 2026
 
+## Changelog (v1.4.0):
+- Adding a board explorer
+- Changes to STEP and 3mf export to improve quality
+
 ## Changelog (v1.3.0):
 - Routing rules are now editable in "Edit" -> "Routing rules": track width, track height, clearance between tracks of different nets, and clearance between a track and a pad of another net. The rules are saved **inside the project** (.epr), so a project routes the same way on any machine; a checkbox additionally stores them as the defaults for new projects. They never resize the tracks already drawn — those are edited by selecting them, from the right-hand panel.
 - Ratsnest system has been reworked to be more like EDA softwares. A link disappears as soon as copper actually connects its two pads, directly or through a chain of tracks and T-junctions. The status bar shows the progress ("12/37 links routed") and "Ratsnest Info" details the nets left to route.
