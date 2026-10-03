@@ -3,6 +3,9 @@ Electroprint is a software designed to merge 3D files with EDA (Kicad) netlists 
 
 The code will be open source before the end of August 2026
 
+## Changelog (v1.4.5):
+- Improvements in selection mode: previous implementation was confusing. The mouse position is now better accounted for regarding selection highlights.
+
 ## Changelog (v1.4.0):
 - Adding a board explorer
 - Changes to STEP and 3mf export to improve quality
